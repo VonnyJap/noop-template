@@ -1,7 +1,7 @@
 # noop-template
 Example template for noop jobs
 
-### Usage
+#### Usage
 
 Example `screwdriver.yaml`
 
