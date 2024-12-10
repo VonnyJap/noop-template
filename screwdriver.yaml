@@ -1,6 +1,6 @@
 ---
 shared:
-  image: node:18
+  image: boom
   environment:
     SD_TEMPLATE_PATH: ./template.yaml
 jobs:
