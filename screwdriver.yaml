@@ -10,9 +10,9 @@ jobs:
       - install_prerequisites: npm install -g screwdriver-template-main
       - validate_template: template-validate
 
-  publish_template:
-    requires: [validate_template]
-    steps:
-      - install_prerequisites: npm install -g screwdriver-template-main
-      - publish: template-publish
-      - autotag: template-tag --name sd/noop --tag latest
+  # publish_template:
+  #   requires: [validate_template]
+  #   steps:
+  #     - install_prerequisites: npm install -g screwdriver-template-main
+  #     - publish: template-publish
+  #     - autotag: template-tag --name sd/noop --tag latest
